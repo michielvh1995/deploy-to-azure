@@ -61,7 +61,7 @@ We won't be going into detail on the steps of this workflow, but it would be a g
     ```
 1.  Back on GitHub, click on this repository's **Secrets and variables > Actions** in the Settings tab.
 1.  Click **New repository secret**
-1.  Name your new secret **AZURE_SUBSCRIPTION_ID** and paste the value from the `id:` field in the first command.
+1.  Name your new secret **AZURE_SUBSCRIPTION_ID** and paste your subscription id, as stored in `AZURE_SUBSCRIPTION_ID` previously.
 1.  Click **Add secret**.
 1.  Click **New repository secret** again.
 1.  Name the second secret **AZURE_CREDENTIALS** and paste the entire contents from the second terminal command you entered.
